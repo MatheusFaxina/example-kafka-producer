@@ -11,12 +11,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 @ActiveProfiles("test")
-@EntityScan("br.com.redis")
+@EntityScan("br.com.examplekafkaproducer")
 @AutoConfigureMockMvc
 @RunWith(SpringRunner.class)
 @WebAppConfiguration
 @SpringBootTest
-public class AbstracIntegrationTest {
+public abstract class AbstractIntegrationTest {
 
     @Autowired
     protected ObjectMapper objectMapper;
