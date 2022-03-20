@@ -32,6 +32,6 @@ public class CustomSerializer implements Serializer {
 
     @Override
     public void close() {
-
     }
+
 }
